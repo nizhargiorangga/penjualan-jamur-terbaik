@@ -166,7 +166,7 @@ function App() {
             }}
           >
             <input type="text" placeholder="Nama Anda" required />
-            <input type="tel" placeholder="Alamat" required />
+            <input type="text" placeholder="Alamat" required />
             <textarea placeholder="Pesan (jenis jamur, jumlah, dll)" rows="4"></textarea>
 
             <button type="submit" className="btn-kirim">
