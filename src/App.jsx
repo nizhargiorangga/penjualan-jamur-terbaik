@@ -127,12 +127,12 @@ function App() {
             </div>
 
             <div className="stat-item">
-              <div className="stat-number">4</div>
+              <div className="stat-number">2</div>
               <div className="stat-label">Jenis Jamur</div>
             </div>
 
             <div className="stat-item">
-              <div className="stat-number">500+</div>
+              <div className="stat-number">5000+</div>
               <div className="stat-label">Pelanggan</div>
             </div>
           </div>
@@ -147,7 +147,7 @@ function App() {
 
           <div className="kontak-info">
             <p><strong>Telepon:</strong> 0857-3735-6169 (admin)</p>
-            <p><strong>Alamat:</strong> Jl. Kebun Jamur No. 123, Batu</p>
+            <p><strong>Alamat:</strong> Jl. Indragiri Sumberejo, Kota Batu</p>
             <p><strong>Jam Buka:</strong> Senin - Minggu, 06:00 - 16:00 WIB</p>
           </div>
 
@@ -166,7 +166,7 @@ function App() {
             }}
           >
             <input type="text" placeholder="Nama Anda" required />
-            <input type="tel" placeholder="Nomor WhatsApp" required />
+            <input type="tel" placeholder="Alamat" required />
             <textarea placeholder="Pesan (jenis jamur, jumlah, dll)" rows="4"></textarea>
 
             <button type="submit" className="btn-kirim">
